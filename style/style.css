@@ -1,5 +1,63 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
-#backgroundImg{}
+
+#backgroundImg {
+    height: 950px;
+    background: linear-gradient(rgba(201, 221, 233, 0.596), rgba(181, 218, 224, 0.459), rgba(188, 216, 243, 0.616)), url('../pic/thisisengineering-ZPeXrWxOjRQ-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.navber{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.fairy {
+    display: flex;
+    align-items: center;
+}
+
+.imgicon {
+    width: 36px;
+}
+
+#filed {
+    color: rgb(76, 201, 254);
+}
+
+.commonh1 {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+/*  */
+.achore {
+    margin: 8px;
+    padding: 8px;
+    color: rgb(61, 61, 61);
+    font-weight: bold;
+}
+
+.buy {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.BuyNow{
+    margin: 20px;
+    padding: 16px 24px 16px 24px;
+    font-weight: bold;
+    color: aliceblue;
+    font-size: 16px;
+    background-color: rgb(76, 201, 254);
+    border: 2px solid rgb(76, 201, 254);
+}
